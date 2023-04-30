@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "maGn5jJGvbDIdIOg2BJ41TmmmVpXj0eLaYPVKkAkT2w=",
+  "Source": "wpr-results-dotnet",
+  "BasePath": "_content/wpr-results-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
