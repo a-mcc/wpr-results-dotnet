@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8IqCdozaESxnT9gJzRD/Gy/pWE4c5FqJ93OlVYKdE5xcFw30xz6oF3M3Go6qvTLvpTYsF3ZfkhOZrTPi8MAaHA==",
+  "dgSpecHash": "bkOlJQY8Rgi6aiQDrB3IsbNuqyXiYjoQHZRGVOALJWvk+9fkj5Cgz6kcJ/azNQldB+HkSI1zQVU7Gf4wfrXc0w==",
   "success": true,
   "projectFilePath": "C:\\git\\wpr-results-dotnet\\WprResults\\WprResults.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Andy\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
+    "C:\\Users\\Andy\\.nuget\\packages\\jorgeserrano.json.jsonsnakecasenamingpolicy\\0.9.0\\jorgeserrano.json.jsonsnakecasenamingpolicy.0.9.0.nupkg.sha512",
     "C:\\Users\\Andy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
     "C:\\Users\\Andy\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Andy\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",

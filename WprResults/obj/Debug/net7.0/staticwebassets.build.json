@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "maGn5jJGvbDIdIOg2BJ41TmmmVpXj0eLaYPVKkAkT2w=",
-  "Source": "wpr-results-dotnet",
-  "BasePath": "_content/wpr-results-dotnet",
+  "Hash": "Wk1oiYcc0B6OPj/rm1JzapEdLxbEHV4XKcwytJbFcIM=",
+  "Source": "WprResults",
+  "BasePath": "_content/WprResults",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

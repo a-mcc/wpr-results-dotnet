@@ -1,6 +1,11 @@
+using WprResults.ResultsProviders.ChampionChipIreland;
+using WprResults.ResultsProviders.Parkrun;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IChampionChipIrelandProvider, ChampionChipIrelandProvider>();
+builder.Services.AddScoped<IParkrunProvider, ParkrunProvider>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

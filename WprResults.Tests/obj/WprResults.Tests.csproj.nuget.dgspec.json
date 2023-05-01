@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\wpr-results-dotnet\\WprResults\\WprResults.csproj": {}
+    "C:\\git\\wpr-results-dotnet\\WprResults.Tests\\WprResults.Tests.csproj": {}
   },
   "projects": {
-    "C:\\git\\wpr-results-dotnet\\WprResults\\WprResults.csproj": {
+    "C:\\git\\wpr-results-dotnet\\WprResults.Tests\\WprResults.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\wpr-results-dotnet\\WprResults\\WprResults.csproj",
-        "projectName": "WprResults",
-        "projectPath": "C:\\git\\wpr-results-dotnet\\WprResults\\WprResults.csproj",
+        "projectUniqueName": "C:\\git\\wpr-results-dotnet\\WprResults.Tests\\WprResults.Tests.csproj",
+        "projectName": "WprResults.Tests",
+        "projectPath": "C:\\git\\wpr-results-dotnet\\WprResults.Tests\\WprResults.Tests.csproj",
         "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\wpr-results-dotnet\\WprResults\\obj\\",
+        "outputPath": "C:\\git\\wpr-results-dotnet\\WprResults.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,21 +40,25 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "HtmlAgilityPack": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[1.11.46, )"
+              "version": "[17.3.2, )"
             },
-            "JorgeSerrano.Json.JsonSnakeCaseNamingPolicy": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[0.9.0, )"
+              "version": "[3.1.2, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
+            "xunit": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[2.4.2, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -69,9 +73,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "HtmlAgilityPack/1.11.46": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "related": ".deps.json;.pdb;.xml"
+          }
+        }
+      },
+      "JorgeSerrano.Json.JsonSnakeCaseNamingPolicy/0.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/JsonSnakeCaseNamingPolicy.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/JsonSnakeCaseNamingPolicy.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -111,6 +133,66 @@
     }
   },
   "libraries": {
+    "HtmlAgilityPack/1.11.46": {
+      "sha512": "dLMn4EVfJBHWmWK4Uh0XGD76FPLHI0qr2Tm0s1m/xmgiHb1JUb9zB8AzO8HtrkBBlMN6JfCUBYddhqC0hZNR+g==",
+      "type": "package",
+      "path": "htmlagilitypack/1.11.46",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "htmlagilitypack.1.11.46.nupkg.sha512",
+        "htmlagilitypack.nuspec",
+        "lib/Net35/HtmlAgilityPack.dll",
+        "lib/Net35/HtmlAgilityPack.pdb",
+        "lib/Net35/HtmlAgilityPack.xml",
+        "lib/Net40-client/HtmlAgilityPack.dll",
+        "lib/Net40-client/HtmlAgilityPack.pdb",
+        "lib/Net40-client/HtmlAgilityPack.xml",
+        "lib/Net40/HtmlAgilityPack.XML",
+        "lib/Net40/HtmlAgilityPack.dll",
+        "lib/Net40/HtmlAgilityPack.pdb",
+        "lib/Net45/HtmlAgilityPack.XML",
+        "lib/Net45/HtmlAgilityPack.dll",
+        "lib/Net45/HtmlAgilityPack.pdb",
+        "lib/NetCore45/HtmlAgilityPack.XML",
+        "lib/NetCore45/HtmlAgilityPack.dll",
+        "lib/NetCore45/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.3/HtmlAgilityPack.dll",
+        "lib/netstandard1.3/HtmlAgilityPack.pdb",
+        "lib/netstandard1.3/HtmlAgilityPack.xml",
+        "lib/netstandard1.6/HtmlAgilityPack.deps.json",
+        "lib/netstandard1.6/HtmlAgilityPack.dll",
+        "lib/netstandard1.6/HtmlAgilityPack.pdb",
+        "lib/netstandard1.6/HtmlAgilityPack.xml",
+        "lib/netstandard2.0/HtmlAgilityPack.deps.json",
+        "lib/netstandard2.0/HtmlAgilityPack.dll",
+        "lib/netstandard2.0/HtmlAgilityPack.pdb",
+        "lib/netstandard2.0/HtmlAgilityPack.xml",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.XML",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.XML",
+        "lib/uap10.0/HtmlAgilityPack.dll",
+        "lib/uap10.0/HtmlAgilityPack.pdb",
+        "lib/uap10.0/HtmlAgilityPack.pri"
+      ]
+    },
+    "JorgeSerrano.Json.JsonSnakeCaseNamingPolicy/0.9.0": {
+      "sha512": "xCqODS+wzpUXNtg4bMMvXG5PLbP0iTwRzRn2R+zWHKm83E6tbV2bCagawXp1EnZeNpd5OXpMxehulZWns8efzQ==",
+      "type": "package",
+      "path": "jorgeserrano.json.jsonsnakecasenamingpolicy/0.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "jorgeserrano.json.jsonsnakecasenamingpolicy.0.9.0.nupkg.sha512",
+        "jorgeserrano.json.jsonsnakecasenamingpolicy.nuspec",
+        "lib/netcoreapp3.1/JsonSnakeCaseNamingPolicy.dll"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/7.0.4": {
       "sha512": "1zlq5/xtbC9AyNHK2EBaL2RuCepoWHAXSxN68io/nndYLOTz/tgGmwtJvDZkUzFYooAXaNlavzcRlgS4muqgOA==",
       "type": "package",
@@ -455,6 +537,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "HtmlAgilityPack >= 1.11.46",
+      "JorgeSerrano.Json.JsonSnakeCaseNamingPolicy >= 0.9.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -498,6 +582,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "HtmlAgilityPack": {
+            "target": "Package",
+            "version": "[1.11.46, )"
+          },
+          "JorgeSerrano.Json.JsonSnakeCaseNamingPolicy": {
+            "target": "Package",
+            "version": "[0.9.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.4, )"
